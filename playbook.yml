@@ -1,7 +1,6 @@
 ---
-- hosts: cxmmip
+- hosts: docker
   remote_user: vagrant
   become: yes
   roles:
-    - tomcat
-   # - nodejs
+    - .
